@@ -2,7 +2,7 @@
 variable "aws_region" {
   description = "AWS region where infrastructure will be deployed"
   type        = string
-  default     = "ap-south-1"
+  default     = "ap-southeast-2"
 }
 
 variable "instance_type" {
